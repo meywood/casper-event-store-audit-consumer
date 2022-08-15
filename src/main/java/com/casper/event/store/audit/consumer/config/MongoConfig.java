@@ -28,7 +28,7 @@ public class MongoConfig extends AbstractMongoClientConfiguration {
     @Value("${spring.data.mongodb.host:localhost}")
     private String host;
     /** The mongo database port number */
-    @Value("${spring.data.mongodb.host:27017}")
+    @Value("${spring.data.mongodb.port:27017}")
     private int port;
 
     @Override
